@@ -1,0 +1,82 @@
+{
+  "id": "esferic-advanture-guide",
+  "title": "Esferic Advanture Guide",
+  "version": "1.1.0",
+  "manifest": "https://github.com/POLIKbuilt/foundryvtt-esferic-advanture-guide/releases/latest/download/module.json",
+  "download": "https://github.com/POLIKbuilt/foundryvtt-esferic-advanture-guide/releases/download/1.1.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "lomeo-dnd5e-phantom",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>Все что нужно для приключений в мире Царств Есферии</p>",
+  "authors": [
+    {
+      "name": "POLIK",
+      "url": "https://x.com/POLIKstarik",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "predmety-iz-esferii",
+      "label": "Предметы Есферии",
+      "path": "packs/predmety-iz-esferii",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sushestva-iz-esferii",
+      "label": "Существа Есферии",
+      "path": "packs/sushestva-iz-esferii",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magiya-iz-esferii",
+      "label": "Магия Есферии",
+      "path": "packs/magiya-iz-esferii",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lokacii-esferii",
+      "label": "Локации Есферии",
+      "path": "packs/lokacii-esferii",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {}
+}

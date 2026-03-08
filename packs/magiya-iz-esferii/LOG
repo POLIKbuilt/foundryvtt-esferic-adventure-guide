@@ -1,8 +1,0 @@
-2026/03/05-22:50:01.036 50d8 Recovering log #652
-2026/03/05-22:50:01.038 50d8 Delete type=0 #652
-2026/03/05-22:50:01.038 50d8 Delete type=3 #650
-2026/03/05-23:03:42.483 3044 Level-0 table #657: started
-2026/03/05-23:03:42.483 3044 Level-0 table #657: 0 bytes OK
-2026/03/05-23:03:42.484 3044 Delete type=0 #655
-2026/03/05-23:03:42.487 3044 Manual compaction at level-0 from '!folders!9U1T3LdhtFq0mFCC' @ 72057594037927935 : 1 .. '!items.effects!m6TmkyrAPSkc5KPZ.Kwni5gxNfOo06SUU' @ 0 : 0; will stop at (end)
-2026/03/05-23:03:42.487 3044 Manual compaction at level-1 from '!folders!9U1T3LdhtFq0mFCC' @ 72057594037927935 : 1 .. '!items.effects!m6TmkyrAPSkc5KPZ.Kwni5gxNfOo06SUU' @ 0 : 0; will stop at (end)
